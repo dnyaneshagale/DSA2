@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.Stack;
 
 public class Intro {
-    private class Node {
+    private static class Node {
         int data;
         ArrayList<Node> children = new ArrayList<>();
     }
